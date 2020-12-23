@@ -83,7 +83,12 @@ for i in range(0, detections.shape[2]):
         label = "Mask" if mask > without_mask else "No Mask"
         
         # bounding box 색상 설정
-        color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
+        if label == "Mask" and max(mask, without_mask) * 100 >= 70:
+            color = (0, 255, 0) # 초록
+        elif label == "No Mask" and max(mask, without_mask) * 100 >= 70:
+            color = (0, 0, 255) # 빨강
+        else:
+            color = (0, 255, 255) # 노랑
         
         # 확률 설정
         label = "{}: {:.2f}%".format(label, max(mask, without_mask) * 100)
