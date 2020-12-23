@@ -11,11 +11,12 @@
     <img width="500" src="image1.png"> 
   </p>
 </div>
+* ##### ① 사람 이미지(with_mask_create/face_images) : 1000개의 사람 이미지 파일
+* ##### ② 얼굴 인식 및 추출(face_detector.py) : 사람 이미지 파일에서 얼굴 인식 및 추출 후 저장
+* ##### ③ 얼굴 인식 및 추출
 
 
-  * ##### caffemodel 파일 : 얼굴 인식을 위해 ResNet 기본 네트워크를 사용하는 SSD(Single Shot Detector) 프레임워크를 통해 사전 훈련된 모델 가중치 사용
-    * ##### ResNet : https://blog.naver.com/dldudcks1779/222112744384
-  * ##### prototxt 파일 : 모델의 레이어 구성 및 속성 정의
+
 
 ---
 ### 실행 환경
