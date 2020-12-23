@@ -79,27 +79,23 @@
     * ##### 마스크 미착용 확률 70% 이상 빨간색 50% 이상 70% 미만 노란색
 
 ---
-
-
-
----
-## 이미지 얼굴 인식
+## 마스크 착용 유무 판단 시스템 - 이미지
 * #### 이미지를 저장하지 않을 경우
-  * sudo python3 face_detection_image.py --input 이미지 경로
-    * 예) sudo python3 face_detection_image.py --input ./face_image.jpg
+  * sudo python3 mask_detector_image.py --input 이미지 경로
+    * 예) sudo python3 mask_detector_image.py --input ./test_image.jpg
 * #### 이미지를 저장할 경우
-  * sudo python3 face_detection_image.py --input 이미지 경로 --output 저장할 이미지 경로
-    * 예) sudo python3 face_detection_image.py --input ./face_image.jpg --output ./result_face_image.jpg
+  * sudo python3 mask_detector_image.py --input 이미지 경로 --output 저장할 이미지 경로
+    * 예) sudo python3 mask_detector_image.py --input ./test_image.jpg --output ./result_image.jpg
 
 <div>
   <p align="center">
-    <img width="300" src="face_image.jpg"> 
-    <img width="300" src="result_face_image.jpg">
+    <img width="300" src="test_image.jpg"> 
+    <img width="300" src="result_image.jpg">
   </p>
 </div>
 
 ---
-## 비디오 얼굴 인식 - 웹캠 또는 동영상(webcam or video)
+## 마스크 착용 유무 판단 시스템 - 웹캠 또는 동영상(webcam or video)
 * #### 비디오를 저장하지 않을 경우
   * webcam : sudo python3 face_detection_video.py
     * 예) sudo python3 face_detection_video.py
