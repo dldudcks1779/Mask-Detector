@@ -14,7 +14,7 @@ images = [os.path.join(without_mask_path, f) for f in os.listdir(without_mask_pa
 
 # 마스크 이미지 경로
 white_mask_image = "./mask_images/white-mask.png" # 흰색 마스크
-black_mask_image = "./mask_images/black-mask.png" # 검색정 마스크
+black_mask_image = "./mask_images/black-mask.png" # 검 마스크
 blue_mask_image = "./mask_images/blue-mask.png" # 파란색 마스크
 
 # 이미지 수만큼 반복
