@@ -8,7 +8,7 @@ from tensorflow.keras.utils import to_categorical # One-Hot Encoding 처리
 from tensorflow.keras.preprocessing.image import ImageDataGenerator # 데이터를 변형시켜 새로운 학습 dataset을 생성
 # MobileNetV2
 # - 모바일이나, 임베디드에서도 실시간 작동할 수 있게 모델이 경량화(메모리와 연산량 감소)
-# - 정확도 또한 많이 떨어지지 않아 속도와 정확도 사이의 트레이드-오프(trade-off) 문제를 어느정도 해결
+# - 정확도 또한 많이 떨어지지 않아 속도와 정확도 사이의 트레이드-오프(trade-off) 문제를 어느 정도 해결
 # - 트레이드-오프(trade-off) 문제 : 한 부분의 성능을 높이면 다른 부분의 성능이 낮아지는 문제
 from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.layers import Input # 입력 데이터의 모양을 모델에 알려주는 역할(Keras tensor 를 인스턴스화)
@@ -21,10 +21,10 @@ from tensorflow.keras.models import Model # 학습 및 추론 기능을 가진 �
 # Nadam(Nesterov-accelerated Adaptive Moment Estimation) : NAG(Nesterov Accelarated Gradient) + Adam(Adaptive Moment Estimation)
 # NAG(Nesterov accelarated gradient)
 # - momentum 이 이동시킬 방향으로 미리 이동해서 gradient 를 계산(불필요한 이동을 줄이는 효과) - 정확도 개선
-# - momentum : 경사 하강법에 관성을 더해주는 것으로, 매번 계산되어진 기울기에 과거 이동했던 방향을 기억하면서 그 방향으로 일정 값을 추가적으로 더해주는 방식
+# - momentum : 경사 하강법에 관성을 더해주는 것으로, 매번 계산된 기울기에 과거 이동했던 방향을 기억하면서 그 방향으로 일정 값을 추가적으로 더해주는 방식
 # Adam(Adaptive Moment Estimation) : momentum + RMSProp (정확도와 보폭 크기 개선)
 # - RMSProp : Adagrad 의 보폭 민감도를 보완한 방법(보폭 크기 개선)
-# - Adagrad : 변수의 업데이트가 잦으면 학습률을 적게하여 이동 보폭을 조절하는 방법(보폭 크기 개선)
+# - Adagrad : 변수의 업데이트가 잦으면 학습률을 작게하여 이동 보폭을 조절하는 방법(보폭 크기 개선)
 # optimizer : 모델을 컴파일하기 위해 필요한 최적화 알고리즘
 from tensorflow.keras.optimizers import Nadam
 
