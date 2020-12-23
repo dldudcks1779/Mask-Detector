@@ -4,6 +4,24 @@
   </p>
 </div>
 
+---
+### 실행 환경
+* #### Ubuntu
+* #### tensorflow-gpu Version : 2.0.0
+  * ##### 설치 : https://blog.naver.com/dldudcks1779/222013424776
+* #### keras(tensorflow에 내장) Version : 2.2.4-tf
+* #### OpenCV Version : 3.x.x
+  * ##### 설치 : https://blog.naver.com/dldudcks1779/222020005648
+* #### imutils
+  * ##### 설치 : sudo pip3 install imutils
+* #### face_recognition
+  * ##### 설치 : sudo pip3 install face_recognition
+* #### sklearn
+  * ##### 설치 : sudo pip3 install sklearn
+* #### matplotlib
+  * ##### 설치 : sudo pip3 install matplotlib
+
+---
 ## 마스크 착용 유무 판단 시스템
 * ### 학습 dataset 생성
   
