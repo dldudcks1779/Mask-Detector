@@ -54,6 +54,12 @@
       * ##### RMSProp : Adagrad 의 보폭 민감도를 보완한 방법(보폭 크기 개선)
       * ##### Adagrad : 변수의 업데이트가 잦으면 학습률을 적게하여 이동 보폭을 조절하는 방법(보폭 크기 개선)
   * #### 실행 : sudo python3 train_mask_detector.py
+  * #### 학습 결과
+    <div>
+      <p align="center">
+        <img width="500" src="result_plot.jpg"> 
+      </p>
+    </div>
 
 ---
 
