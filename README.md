@@ -27,7 +27,7 @@
   
   <div>
     <p align="center">
-      <img width="500" src="image1.png"> 
+      <img width="1000" src="image1.png"> 
     </p>
   </div>
   
@@ -67,7 +67,7 @@
   
   <div>
     <p align="center">
-      <img width="500" src="image2.png"> 
+      <img width="1000" src="image2.png"> 
     </p>
   </div>
 
