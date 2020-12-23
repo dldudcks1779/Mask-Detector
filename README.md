@@ -13,13 +13,13 @@
   </p>
 </div>
 
-#### ① 사람 이미지(with_mask_create/face_images) : 1000개의 사람 이미지 파일
-#### ② 얼굴 인식 및 추출(with_mask_create/face_detector.py) : 사람 이미지 파일에서 얼굴 인식 및 추출 후 저장
-  * ##### 실행 : sudo python3 face_detector.py
-#### ③ 마스크를 착용하지 않은 얼굴 이미지(dataset/without_mask) : 추출한 1000개의 마스크를 착용하지 않은 얼굴 이미지 파일
-#### ④ 마스크를 착용한 이미지 생성(with_mask_create/with_mask_create.py + with_mask_create/face_masker.py) : 추출한 얼굴 이미지 파일에 마스크 이미지(mask_images)를 추가하여 마스크(흰색, 검은색, 파란색)를 착용한 이미지 생성
-  * ##### 실행 : sudo python3 with_mask_create.py
-#### ⑤ 마스크를 착용한 얼굴 이미지(dataset/with_mask) : 마스크 이미지를 추가한 1000개의 마스크를 착용한 얼굴 이미지 파일(흰색 마스크 착용 600개, 검은색 마스크 착용 300개, 파란색 마스크 착용 100개)
+  #### ① 사람 이미지(with_mask_create/face_images) : 1000개의 사람 이미지 파일
+  #### ② 얼굴 인식 및 추출(with_mask_create/face_detector.py) : 사람 이미지 파일에서 얼굴 인식 및 추출 후 저장
+    * ##### 실행 : sudo python3 face_detector.py
+  #### ③ 마스크를 착용하지 않은 얼굴 이미지(dataset/without_mask) : 추출한 1000개의 마스크를 착용하지 않은 얼굴 이미지 파일
+  #### ④ 마스크를 착용한 이미지 생성(with_mask_create/with_mask_create.py + with_mask_create/face_masker.py) : 추출한 얼굴 이미지 파일에 마스크 이미지(mask_images)를 추가하여 마스크(흰색, 검은색, 파란색)를 착용한 이미지 생성
+    * ##### 실행 : sudo python3 with_mask_create.py
+  #### ⑤ 마스크를 착용한 얼굴 이미지(dataset/with_mask) : 마스크 이미지를 추가한 1000개의 마스크를 착용한 얼굴 이미지 파일(흰색 마스크 착용 600개, 검은색 마스크 착용 300개, 파란색 마스크 착용 100개)
 
 
 
