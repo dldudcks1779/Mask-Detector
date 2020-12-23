@@ -6,11 +6,13 @@
 
 ## 마스크 착용 유무 판단 시스템
 * ### 학습 dataset 생성
+
 <div>
   <p align="center">
     <img width="500" src="image1.png"> 
   </p>
 </div>
+
 * ##### ① 사람 이미지(with_mask_create/face_images) : 1000개의 사람 이미지 파일
 * ##### ② 얼굴 인식 및 추출(face_detector.py) : 사람 이미지 파일에서 얼굴 인식 및 추출 후 저장
 * ##### ③ 얼굴 인식 및 추출
