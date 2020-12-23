@@ -40,7 +40,7 @@ import os # 운영체제 기능 모듈
 
 dataset = './dataset' # 학습 dataset 경로
 plot = 'result_plot.jpg' # matplotlib 를 사용한 학습 오차 및 정확도 그래프
-model_name = 'mask_detector.h5' # Face Mask Detector 학습 결과 모델
+model_name = 'mask_detector.h5' # Face Mask Detector 학습 결과 
 
 init_learning_rate = 1e-4 # 초기 학습률(1 * (10**(-4))) : e는 Exponential(지수)의 약자
 epochs = 20 # epoch 수 : 전체 dataset에 대해 학습할 횟수
