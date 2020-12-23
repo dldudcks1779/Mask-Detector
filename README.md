@@ -71,14 +71,10 @@
     </p>
   </div>
 
-  * #### ① 사람 이미지(with_mask_create/face_images) : 1000개의 사람 이미지 파일
-  * #### ② 얼굴 인식 및 추출(with_mask_create/face_detector.py) : 사람 이미지 파일에서 얼굴 인식 및 추출 후 저장
-    * ##### 실행 : sudo python3 face_detector.py
-    * ##### 참고(face_recognition을 이용한 Face Detection(얼굴 인식)) : https://blog.naver.com/dldudcks1779/222161831473
-  * #### ③ 마스크를 착용하지 않은 얼굴 이미지(dataset/without_mask) : 추출한 1000개의 마스크를 착용하지 않은 얼굴 이미지 파일
-
-
-
+  * #### ① 이미지(프레임)에서 얼굴 인식 및 추출
+    * ##### 참고(DNN(Deep Neural Network)를 이용한 Face Detection(얼굴 인식)) : https://blog.naver.com/dldudcks1779/222180883779
+  * #### ② 학습한 Mask Detector 모델을 이용하여 추출된 얼굴에서 마스크 착용 유무 판단
+  * #### ③ 마스크 착용 유무 판단 결과 출력
 
 ---
 
