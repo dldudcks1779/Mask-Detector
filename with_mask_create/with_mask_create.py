@@ -22,7 +22,7 @@ for i in range(len(images)):
     #print(i+1, "번째 이미지 경로 :", images[i])
     if i < 600 : # 600개 이미지 흰색 마스크 적용
         create_mask(images[i], white_mask_image)
-    elif i < 900 : # 300개 이미지 검정색 마스크 적용
+    elif i < 900 : # 300개 이미지 검색 마스크 적용
         create_mask(images[i], black_mask_image)
     else : # 나머지 100개 이미지 파란 마스크 적용
         create_mask(images[i], blue_mask_image)
