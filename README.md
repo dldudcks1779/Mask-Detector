@@ -53,16 +53,12 @@
     * #### Adam(Adaptive Moment Estimation) : momentum + RMSProp (정확도와 보폭 크기 개선)
       * ##### RMSProp : Adagrad 의 보폭 민감도를 보완한 방법(보폭 크기 개선)
       * ##### Adagrad : 변수의 업데이트가 잦으면 학습률을 적게하여 이동 보폭을 조절하는 방법(보폭 크기 개선)
-
+  * #### 실행 : sudo python3 train_mask_detector.py
 
 ---
-### 실행 환경
-* #### Ubuntu
-* #### OpenCV Version : 3.x.x
-  * ##### 설치 : https://blog.naver.com/dldudcks1779/222020005648
-* #### imutils
-  * ##### 설치 : sudo pip3 install imutils
-  
+
+
+
 ---
 ## 이미지 얼굴 인식
 * #### 이미지를 저장하지 않을 경우
