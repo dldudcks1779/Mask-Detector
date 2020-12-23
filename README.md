@@ -60,6 +60,8 @@
         <img width="500" src="result_plot.jpg"> 
       </p>
     </div>
+    
+    * ##### mask_detector.h5 : 마스크 착용 유무 판단 모델 가중치
 
 ---
 
