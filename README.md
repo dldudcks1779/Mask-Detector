@@ -97,14 +97,14 @@
 ---
 ## 마스크 착용 유무 판단 시스템 - 웹캠 또는 동영상(webcam or video)
 * #### 비디오를 저장하지 않을 경우
-  * webcam : sudo python3 face_detection_video.py
-    * 예) sudo python3 face_detection_video.py
-  * video : sudo python3 face_detection_video.py --input 비디오 경로
-    * 예) sudo python3 face_detection_video.py --input ./face_video.avi
+  * webcam : sudo python3 mask_detector_video.py
+    * 예) sudo python3 mask_detector_video.py
+  * video : sudo python3 mask_detector_video.py --input 비디오 경로
+    * 예) sudo python3 mask_detector_video.py --input ./test_video.avi
 * #### 비디오를 저장할 경우
-  * webcam : sudo python3 face_detection_video.py --output 저장할 비디오 경로
-    * 예) sudo python3 face_detection_video.py --output ./result_face_video.avi
-  * video : sudo python3 face_detection_video.py --input 비디오 경로 --output 저장할 비디오 경로
-    * 예) sudo python3 face_detection_video.py --input ./face_video.avi --output ./result_face_video.avi
+  * webcam : sudo python3 mask_detector_video.py --output 저장할 비디오 경로
+    * 예) sudo python3 mask_detector_video.py --output ./result_video.avi
+  * video : sudo python3 mask_detector_video.py --input 비디오 경로 --output 저장할 비디오 경로
+    * 예) sudo python3 mask_detector_video.py --input ./test_video.avi --output ./result_video.avi
 
 ---
